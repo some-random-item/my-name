@@ -1,0 +1,78 @@
+li,ol{
+    color:blue;
+    background-color: wheat; 
+}
+
+h1{
+     background-color: yellow;
+     text-align: center;
+     font-size: 5vw;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    background-color: darkcyan;
+} 
+
+p{
+    color:greenyellow;
+    background-color: coral;
+}
+
+.navbar{
+    background-color: cornflowerblue;
+    border-color: black;
+    border-collapse:collapse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: sticky;
+    top:0px
+}
+
+.navbar th{
+    border:solid #000080;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 5px
+
+}
+
+body{
+    background-image: url(../img/1033.png);
+}
+
+header{
+     background-color: white;
+     text-align: center;
+     font-size: 5vw;
+}
+footer{
+    background-color:blue;
+    color:white;
+    font-size: 12px;
+    border:3px solid white
+}
+
+.profile{
+    background-color:#3E92CC;
+    text-align: center;
+}
+.dropdown{
+    display:inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    color:navy;
+    padding: 3px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active{
+    background-color: azure;
+}
